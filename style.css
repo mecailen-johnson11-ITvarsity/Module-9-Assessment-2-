@@ -1,0 +1,46 @@
+body{
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+#local{
+    width: 100%;
+    background-color: #FBF722 ;
+    padding: 15px 0;
+    margin: 0;
+
+   
+    font-size: 1.5rem;
+    color: #646261;
+    text-align: center;
+
+}
+
+#cities{
+    border-collapse: collapse;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#cities td{
+    border: 1px solid #FBF722 ;
+    padding: 8px;
+}
+
+#cities tr:nth-child(even){
+    background-color: #919191;
+}
+
+.col1{
+    width: 10px;
+}
+
+.col2{
+    width: 45%;
+}
+
+
+
+
+
