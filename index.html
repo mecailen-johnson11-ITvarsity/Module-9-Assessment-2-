@@ -3,7 +3,7 @@
     <head>
        <title>World Time</title>
        <meta charset="UTF-8">
-       <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -14,14 +14,17 @@
             var timer = setInterval(displayWorldTime, 1000);
 
             var cities = [
-                {name: "Istanbul", utcOffset: 3, flag: "Turkey.png"},
+                {name: "South Africa", utcOffset: 2, flag: "South-Africa.png"},
                 {name: "New York City", utcOffset: -5, flag: "United-States-of-America.png"},
-                {name: "Tokyo", utcOffset: 9, flag: "Japan.png"},
-                {name: "Moscow", utcOffset: 3, flag: "Russia.png"},
+                {name: "South Korea", utcOffset: 9, flag: "Korea,-South.png"},
+                {name: "Ethiopia", utcOffset: 3, flag: "Ethiopia.png"},
                 {name: "Rio De Janeiro", utcOffset: -3, flag: "Brazil.png"},
-                {name: "Sydney", utcOffset: 11, flag: "Australia.png"},
-                {name: "Vancouver", utcOffset: -8, flag: "Canada.png"},
-                {name: "Beijing", utcOffset: 8, flag: "China.png"}
+                {name: "Solomons Island", utcOffset: 11, flag: "Solomon-Islands.png"},
+                {name: "France", utcOffset: -8, flag: "France.png"},
+                {name: "Samoa", utcOffset: 13, flag: "Samoa.png"},
+                {name: "Kiribati", utcOffset: 14, flag: "Kiribati.png"},
+                {name: "Russia", utcOffset: 10, flag: "Russia.png"},
+                {name: "Croatia", utcOffset: 1, flag: "Croatia.png"},
             ];
 
             cities.sort(compare);
@@ -60,7 +63,7 @@
                 output += `
                        <tr>
                              <th class="col1"></th>   
-                            <th class="col2"></th>
+                             <th class="col2"></th>
                             <th></th>
                        </tr>
                 `;
